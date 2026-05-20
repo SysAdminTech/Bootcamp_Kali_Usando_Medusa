@@ -62,15 +62,16 @@ A máquina alvo é um host intencionalmente vulnerável.
 
 ---
 
-### 🌐 Identificação do IP
+### 🌐 Identificação do IP e teste de conectividade
 
-Comando utilizado para localizar o alvo na rede local:
+Comandos utilizados para localizar o ip do host alvo e testando a conectividade:
 
 ```bash
-ip a
+ip a para identificar o ip do metasploitable
+ping + ip do metasploitable
 ```
 
-![IP da máquina alvo](images/03.metasploitable-ip.png)
+![conectividade](imagens/conectividade.png)
 *Endereço IP identificado no Metasploitable via comando `ip a`*
 
 **IP utilizado no laboratório:** `192.168.56.101`
