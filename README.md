@@ -67,9 +67,9 @@ A máquina alvo é um host intencionalmente vulnerável.
 Comandos utilizados para localizar o ip do host alvo e testando a conectividade:
 
 ```bash
-**ip a**
+ip a
 para mostrar o ip do metasploitable
-**ping** 192.168.56.101
+ping 192.168.56.101
 para testar a conectividade entre os hosts
 ```
 
@@ -87,16 +87,13 @@ ping 192.168.56.101 - CTRL + c para interromper o ping
 
 ```
 
-![Teste de ping](images/05.testeconexao-ping-kalilinux.png)
-*Validando a conectividade entre Kali Linux e Metasploitable*
-
-### ✔️ Varredura de Serviços com Nmap
+### ✔️ Utilizando o Nmap para encontrar portas e serviços no host/rede
 
 ```bash
 nmap -sV -p 21,22,80,445,139 192.168.56.101
 ```
 
-![Serviços ativos](images/06.servicosativos.png)
+![Serviços ativos](imagens/servicos.png)
 *Resultado da varredura Nmap — serviços FTP, SSH, HTTP e SMB identificados*
 
 Serviços identificados:
