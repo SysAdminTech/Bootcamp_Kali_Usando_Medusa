@@ -1,5 +1,4 @@
-# Bootcamp_Kali_Usando_Medusa
-# 🔐 Simulação de Ataques de Força Bruta com Kali Linux e Medusa
+# :test_tube: Simulação de Ataques de Força Bruta com Kali Linux e Medusa
 
 ## 📌 Sobre o Projeto
 
