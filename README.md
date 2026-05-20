@@ -30,10 +30,10 @@ Foram explorados três aplicações principais:
 
 | Componente | Descrição |
 |---|---|
-| **Sistema Atacante** | Kali Linux |
-| **Sistema Alvo** | Metasploitable 2 |
-| **Virtualização** | VirtualBox |
-| **Rede** | Host-Only |
+| **Sistema do hacker** | Kali Linux |
+| **Sistema do usuário** | Metasploitable 2 |
+| **Ambiente do lab** | VirtualBox |
+| **Conectividade** | Host-Only/Rede interna |
 
 ---
 
