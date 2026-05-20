@@ -83,12 +83,12 @@ para testar a conectividade entre os hosts
 Antes de iniciar os ataques, foi realizado um teste para validar a comunicação entre as máquinas:
 
 ```bash
-ping -c 3 192.168.56.101
+ping 192.168.56.101 - CTRL + c para interromper o ping
 
 ```
 
 ![Teste de ping](images/05.testeconexao-ping-kalilinux.png)
-*Ping bem-sucedido confirmando comunicação entre Kali Linux e Metasploitable*
+*Validando a conectividade entre Kali Linux e Metasploitable*
 
 ### ✔️ Varredura de Serviços com Nmap
 
