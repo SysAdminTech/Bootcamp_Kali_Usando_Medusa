@@ -103,7 +103,7 @@ Serviços identificados:
 | 21/tcp | FTP | vsftpd 2.3.4 |
 | 22/tcp | SSH | OpenSSH 4.7p1 |
 | 25/tcp | SMTP| SMTPD         |
-| 53/udp | DOMAIN | ISC BIND 9.4.2 |
+| 53/tcp | DOMAIN | ISC BIND 9.4.2 |
 | 80/tcp | HTTP | Apache httpd 2.2.8 |
 | 139/tcp | NetBIOS-SSN | Samba smbd 3.X – 4.X |
 | 445/tcp | NetBIOS-SSN | Samba smbd 3.X – 4.X |
