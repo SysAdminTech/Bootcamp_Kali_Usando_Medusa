@@ -85,10 +85,6 @@ Antes de iniciar os ataques, foi realizado um teste para validar a comunicação
 ```bash
 ping -c 3 192.168.56.101
 
----
-
-## 🔎 Enumeração
-
 ```
 
 ![Teste de ping](images/05.testeconexao-ping-kalilinux.png)
