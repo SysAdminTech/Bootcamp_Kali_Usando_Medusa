@@ -51,12 +51,12 @@ Para o laboratório foi utilizado o VirtualBox (virtualizador) de VMs, Conectivi
 
 ---
 
-### 🔐 Inicialização do Metasploitable
+### 🔐 Informações importantes do Metasploitable
 
-A máquina alvo é um servidor intencionalmente vulnerável.
+A máquina alvo é um host intencionalmente vulnerável.
 
-![Login Metasploitable](images/02.metasploitable-login.png)
-*Tela de boot do Metasploitable 2 com aviso de uso exclusivo em redes confiáveis*
+![Login Metasploitable](imagens/comando_lsb.png)
+*comando **cat /etc/lsb-release** para obter informações do sistema*
 
 **Credenciais padrão:** `msfadmin` / `msfadmin`
 
