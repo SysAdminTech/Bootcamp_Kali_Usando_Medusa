@@ -46,7 +46,7 @@ Para o laboratório foi utilizado o VirtualBox (virtualizador) de VMs, Conectivi
 ![Ambiente VirtualBox](imagens/Ambiente_VMs.png)
 *Configuração das máquinas no VirtualBox — Metasploitable e Kali Linux em execução simultânea*
 
-![Kali Linux no VirtualBox](imagens/vm_execucao.png)
+![Kali Linux no VirtualBox](imagens/Vm_execucao.png)
 *Interface do Kali Linux pronto para o ataque*
 
 ---
