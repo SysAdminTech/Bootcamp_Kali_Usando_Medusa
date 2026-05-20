@@ -76,16 +76,17 @@ ping + ip do metasploitable
 
 **IP utilizado no laboratório:** `192.168.56.101`
 
----
-
-## 🔎 Enumeração
-
 ### ✔️ Teste de Conectividade
 
 Antes de iniciar os ataques, foi realizado um teste para validar a comunicação entre as máquinas:
 
 ```bash
 ping -c 3 192.168.56.101
+
+---
+
+## 🔎 Enumeração
+
 ```
 
 ![Teste de ping](images/05.testeconexao-ping-kalilinux.png)
