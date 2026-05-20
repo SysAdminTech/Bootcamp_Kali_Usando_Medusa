@@ -110,19 +110,19 @@ Serviços identificados:
 
 ---
 
-## 🔐 Ataque 1: Força Bruta em FTP
+## 🔐 Cenário 1: Força Bruta em FTP
 
 ### ✔️ Criação das Wordlists
 
-Foram criadas listas simples de usuários e senhas para simular o ataque:
+Foram criadas duas listas de usuários e senhas para uso da ferramenta Medusa:
 
 ```bash
 echo -e "user\nadmin\nmsfadmin\nroot" > users.txt
-echo -e "123456\npassword\nmsfadmin\nadmin" > pass.txt
+echo -e "123456\npassword\nmsfadmin\nadmin" > passwd.txt
 ```
 
-![Criação das wordlists](images/07.criacaodaslistas.png)
-*Criação dos arquivos `users.txt` e `pass.txt` utilizados no ataque*
+![Criação das wordlists](imagens/wordlist.png)
+*visualizando os arquivos `users.txt` e `passwd.txt` utilizados no ataque*
 
 ### ✔️ Execução do Ataque com Medusa
 
