@@ -37,11 +37,11 @@ Foram explorados três aplicações principais:
 
 ---
 
-## ⚙️ Configuração do Ambiente
+## ⚙️ Configuração do Lab
 
-### 🖥️ Máquinas Virtuais
+### 🖥️ Virtuais Hosts (VMs)
 
-O laboratório foi montado utilizando o VirtualBox para isolar o tráfego de ataque.
+Para o laboratório foi utilizado o VirtualBox (virtualizador) de VMs, Conectividade e outros recursos.
 
 ![Ambiente VirtualBox](images/01.virtualbox.png)
 *Configuração das máquinas no VirtualBox — Metasploitable e Kali Linux em execução simultânea*
