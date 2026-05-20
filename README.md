@@ -12,7 +12,7 @@ Foram explorados três aplicações principais:
 
 - :card_index_dividers: **FTP** (Servidor de compartilhamento de arquivos pela rede/internet)
 - 🌐 **Aplicação Web (DVWA)** (Explorando pagina de login/formulário)
-- :card_index_dividers: **SMB** (password spraying)
+- :open_file_folder: **SMB** (password spraying)
 
 ---
 
@@ -26,7 +26,7 @@ Foram explorados três aplicações principais:
 
 ---
 
-## 🖥️ Ambiente Utilizado :computer:
+## :computer: Ambiente Utilizado :computer:
 
 | Componente | Descrição |
 |---|---|
