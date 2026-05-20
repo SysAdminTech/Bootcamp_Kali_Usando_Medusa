@@ -44,10 +44,10 @@ Foram explorados três aplicações principais:
 Para o laboratório foi utilizado o VirtualBox (virtualizador) de VMs, Conectividade e outros recursos.
 
 ![Ambiente VirtualBox](imagens/Ambiente_VMs.png)
-*Configuração das máquinas no VirtualBox — Metasploitable e Kali Linux em execução simultânea*
+*Máquinas importadas no VirtualBox — Metasploitable e Kali Linux em execução simultânea*
 
 ![Kali Linux no VirtualBox](imagens/Vm_execucao.png)
-*Interface do Kali Linux pronto para o ataque*
+*Interface do Kali Linux e metasploitable*
 
 ---
 
