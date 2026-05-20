@@ -1,17 +1,17 @@
-# :test_tube: Simulação de Ataques de Força Bruta com Kali Linux e Medusa
+# :test_tube: Detalhes do projeto Bootcamp - Cibersegurança
 
 ## 📌 Sobre o Projeto
 
-Este projeto faz parte do curso de **Cibersegurança** realizado pela **DIO (Digital Innovation One)** em parceria com a **Riachuelo**, e tem como objetivo demonstrar, na prática, a execução de ataques de força bruta (Brute Force) em um ambiente controlado utilizando:
+Este projeto faz parte do Bootcamp de **Cibersegurança** oferecido pela **DIO (Digital Innovation One)** em parceria com a **Riachuelo**, e tem como objetivo demonstrar, na prática, a execução de ataques de força bruta (Brute Force) em um ambiente controlado utilizando:
 
-- **Kali Linux** (máquina atacante)
-- **Metasploitable 2** (máquina vulnerável)
-- **Ferramenta Medusa**
+- **Kali Linux** (Host do hacker)
+- **Metasploitable 2** (Estação de aplicações)
+- **Ferramenta Medusa** (Ferramenta do kali usada neste Lab)
 
-Foram explorados três cenários principais:
+Foram explorados três aplicações principais:
 
-- 🔐 **FTP** (força bruta)
-- 🌐 **Aplicação Web (DVWA)**
+- :card_index_dividers: **FTP** (Servidor de compartilhamento de arquivos pela rede/internet)
+- 🌐 **Aplicação Web (DVWA)** (Explorando pagina de login/formulário)
 - 💻 **SMB** (password spraying)
 
 ---
