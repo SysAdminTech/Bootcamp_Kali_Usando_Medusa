@@ -12,21 +12,21 @@ Foram explorados três aplicações principais:
 
 - :card_index_dividers: **FTP** (Servidor de compartilhamento de arquivos pela rede/internet)
 - 🌐 **Aplicação Web (DVWA)** (Explorando pagina de login/formulário)
-- 💻 **SMB** (password spraying)
+- :card_index_dividers: **SMB** (password spraying)
 
 ---
 
 ## 🎯 Objetivos
 
-- Compreender ataques de força bruta em diferentes serviços
-- Utilizar ferramentas de pentest (Medusa e Nmap)
-- Explorar vulnerabilidades em ambientes inseguros
+- Simular ataques de força bruta em diferentes aplicações/serviços
+- Utilizar ferramentas de pentest do kali (Medusa e Nmap)
+- Explorar vulnerabilidades em ambientes inseguros (Portas e serviços)
 - Documentar processos técnicos de forma estruturada
-- Praticar segurança ofensiva em laboratório
+- Praticar segurança ofensiva em laboratório (Kali e Metasploit)
 
 ---
 
-## 🖥️ Ambiente Utilizado
+## 🖥️ Ambiente Utilizado :computer:
 
 | Componente | Descrição |
 |---|---|
