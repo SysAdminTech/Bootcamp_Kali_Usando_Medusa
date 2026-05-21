@@ -131,7 +131,7 @@ medusa -h 192.168.56.101 -U users.txt -P pass.txt -M ftp -t 6
 ```
 
 ![Ataque FTP](imagens/ftp.png)
-*Medusa testando combinações de usuários e senhas no serviço FTP*
+*Medusa encontra usuários e senhas no serviço FTP*
 
 ### ✔️ Resultado
 
