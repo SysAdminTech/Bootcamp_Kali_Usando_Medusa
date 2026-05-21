@@ -251,8 +251,8 @@ A utilização da ferramenta **Medusa** evidenciou a importância de controles d
 
 ---
 
-## ⚠️ Aviso Legal
+## ⚠️ Leia
 
-> Este projeto foi desenvolvido **exclusivamente para fins educacionais** em ambiente controlado e isolado.
+> Este projeto foi elaborado **exclusivamente para fins educacionais** em ambiente controlado e isolado.
 >
 > **Não utilize essas técnicas em sistemas reais sem autorização prévia.** O uso não autorizado dessas ferramentas pode constituir crime previsto na legislação vigente.
