@@ -164,7 +164,7 @@ http://192.168.56.101/dvwa/login.php
 ![Tela de login DVWA](imagens/dvwa.png)
 *Formulário de login da aplicação DVWA, na aba network podemos visualizar o trafego que passa pelo navegador*
 
-### ✔️ Execução do Ataque com Medusa
+### ✔️ Execução do Medusa para encontrar credenciais validas em outra wordlist
 
 ```bash
 medusa -h 192.168.56.101 -U users.txt -P pass.txt -M http \
@@ -173,12 +173,15 @@ medusa -h 192.168.56.101 -U users.txt -P pass.txt -M http \
   -m FAIL='Login failed' -t 6
 ```
 
-![Ataque web com Medusa](images/10.acessodvwa.png)
+![Retornando sucesso com Medusa](imagens/retornando_sucesso.png)
 *Ataque automatizado no formulário de login — múltiplas credenciais válidas encontradas*
 
 ### ✔️ Resultado
 
-Foram encontradas múltiplas credenciais válidas (`user`, `admin`, `msfadmin`, `root`), demonstrando a ausência de mecanismos de proteção contra ataques de força bruta na aplicação.
+Nesta etapa o navegador retorna todas as tentativas como sucesso, erro interno da aplicação Medusa. Após esse erro utilizei o Hydra, onde me trouxe as credenciais corretas.
+
+![Hydra](imagens/hydra.png)
+*Em destaque, essas são as credenciais corretas para esse cenário.*
 
 ---
 
