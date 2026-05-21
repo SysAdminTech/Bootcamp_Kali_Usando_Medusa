@@ -43,10 +43,10 @@ Foram explorados três aplicações principais:
 
 Para o laboratório foi utilizado o VirtualBox (virtualizador) de VMs, Conectividade e outros recursos.
 
-![Ambiente VirtualBox](imagens/Ambiente_VMs.png)
+![Ambiente](imagens/Ambiente_VMs.png)
 *Máquinas importadas no VirtualBox — Metasploitable e Kali Linux em execução simultânea*
 
-![Kali Linux no VirtualBox](imagens/Vm_execucao.png)
+![Kali Linux e Meta](imagens/Vm_execucao.png)
 *Interface do Kali Linux e metasploitable*
 
 ---
@@ -55,7 +55,7 @@ Para o laboratório foi utilizado o VirtualBox (virtualizador) de VMs, Conectivi
 
 A máquina alvo é um host intencionalmente vulnerável.
 
-![Login Metasploitable](imagens/comando_lsb.png)
+![Info Metasploitable](imagens/comando_lsb.png)
 *comando **cat /etc/lsb-release** para obter informações do sistema*
 
 **Credenciais padrão:** `msfadmin` / `msfadmin`
@@ -90,7 +90,7 @@ ping 192.168.56.101 - CTRL + c para interromper o ping
 ### ✔️ Utilizando o Nmap para encontrar portas e serviços no host/rede
 
 ```bash
-nmap -sV -p 21,22,80,445,139 192.168.56.101
+nmap -sV -p 21,22,23,25,53,80,445,139 192.168.56.101
 ```
 
 ![Serviços ativos](imagens/servicos.png)
@@ -130,7 +130,7 @@ echo -e "123456\npassword\nmsfadmin\nadmin" > passwd.txt
 medusa -h 192.168.56.101 -U users.txt -P pass.txt -M ftp -t 6
 ```
 
-![Ataque FTP](imagens/ftp.png)
+![FTP](imagens/ftp.png)
 *Medusa encontra usuários e senhas no serviço FTP*
 
 ### ✔️ Resultado
