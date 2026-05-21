@@ -161,8 +161,8 @@ A aplicação vulnerável DVWA foi acessada pelo navegador:
 http://192.168.56.101/dvwa/login.php
 ```
 
-![Tela de login DVWA](images/11.formulariodvwa.png)
-*Formulário de login da aplicação DVWA acessado via navegador no Kali Linux*
+![Tela de login DVWA](imagens/dvwa.png)
+*Formulário de login da aplicação DVWA, na aba network podemos visualizar o trafego que passa pelo navegador*
 
 ### ✔️ Execução do Ataque com Medusa
 
