@@ -2,7 +2,7 @@
 
 ## 📌 Sobre o Projeto
 
-Este projeto faz parte do Bootcamp de **Cibersegurança** oferecido pela **DIO (Digital Innovation One)** em parceria com a **Riachuelo**, e tem como objetivo demonstrar, na prática, a execução de ataques de força bruta (Brute Force) em um ambiente controlado utilizando:
+Este projeto faz parte do Bootcamp de **Cibersegurança** oferecido pela **DIO (Digital Innovation One)**, e tem como objetivo demonstrar, na prática, a execução de ataques de força bruta (Brute Force) em um ambiente controlado utilizando:
 
 - **Kali Linux** (Host do hacker)
 - **Metasploitable 2** (Estação de aplicações)
