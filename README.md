@@ -146,8 +146,8 @@ O ataque identificou credenciais válidas:
 ftp 192.168.56.101
 ```
 
-![Confirmação de acesso FTP](images/09.confirmacaoconexaomedusalistas.png)
-*Acesso autenticado com sucesso via FTP utilizando as credenciais descobertas*
+![acessando FTP com medusa](imagens/acesso_ftp.png)
+*Acesso com sucesso via FTP utilizando as credenciais descobertas utilizando o medusa*
 
 ---
 
